@@ -65,7 +65,7 @@ AVAILABLE_DRIVERS = [
     "waifu2x_ncnn_vulkan",
     "srmd_ncnn_vulkan",
     "realsr_ncnn_vulkan",
-    "realcugan_ncnn_vulcan",
+    "realcugan_ncnn_vulkan",
 ]
 
 # fixed scaling ratios supported by the drivers
@@ -74,7 +74,7 @@ DRIVER_FIXED_SCALING_RATIOS = {
     "waifu2x_ncnn_vulkan": [1, 2],
     "srmd_ncnn_vulkan": [2, 3, 4],
     "realsr_ncnn_vulkan": [4],
-    "realcugan_ncnn_vulcan": [2, 3, 4],
+    "realcugan_ncnn_vulkan": [2, 3, 4],
 }
 
 
